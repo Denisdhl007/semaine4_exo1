@@ -1,3 +1,30 @@
-h1{
-    font-family: kadri;
+
+.section4Div{
+    display: flex;
+    width: 100vw;
+    height: 68vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4Img{
+    display: flex;
+    width: 60vw;
+    height: 75vh;
+    margin-top: 10vh;
+}
+
+@media only screen and (max-width: 390px) {
+    .section4Div{
+        display: flex;
+        width: 100vw;
+        height: 30vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .section4Img{
+        display: flex;
+        width: 80vw;
+        height: 30vh;
+    }
 }

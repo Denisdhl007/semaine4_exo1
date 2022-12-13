@@ -1,0 +1,111 @@
+
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d8d8d8;
+    justify-content: space-around;
+    height: 12vh;
+    width: 100vw;
+    align-content: center;
+    align-items: center;
+}
+
+.footerLogoDiv{
+    display: flex;
+    height: 5vh;
+    width: 5vw;
+    
+}
+
+.footerLinks{
+    display: flex;
+    // width: 21vw;
+    // padding: 1vh 1vw;
+}
+
+.linksF{
+    padding: 1vh 1vw;
+}
+
+.ContainerSocialMedia{
+    display: flex;
+    align-items: center;
+    height:10vh;
+    width:10vw;
+}
+
+.socialMedia{
+    display: flex;
+    margin: 2vw;
+    height:1vh;
+    width:1vw;
+    color: rgb(255, 8, 8);
+    text-decoration: none;
+}
+
+.socialMedia:hover{
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+@media only screen and (max-width: 390px) {
+
+    .containerFooter{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #d8d8d8;
+        justify-content: space-around;
+        height: 70vh;
+        width: 100vw;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .footerLogoDiv{
+        display: flex;
+        height: 21vh;
+        width: 25vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footerLinks{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        // width: 21vw;
+        // padding: 1vh 1vw;
+    }
+    
+    .linksF{
+        padding: 1vh 1vw;
+    }
+    
+    .ContainerSocialMedia{
+        display: flex;
+        align-items: center;
+    }
+    
+    .socialMedia{
+        display: flex;
+        margin: 2vw;
+        color: rgb(85, 85, 85);
+        text-decoration: none;
+    }
+    
+    .socialMedia:hover{
+        border: none;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    
+}
+
+

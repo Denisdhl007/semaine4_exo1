@@ -1,0 +1,36 @@
+
+
+
+.section7Container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 30vh;
+}
+
+.section7DivImg{
+    display: flex;
+}
+
+.s7DivImg{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 390px) {
+    .section7Container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 62vh;
+        flex-direction: column;
+    }
+    .section7DivImg{
+        display: flex;
+    }
+    .s7DivImg{
+        display: flex;
+    }
+}

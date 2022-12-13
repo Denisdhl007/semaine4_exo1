@@ -1,3 +1,41 @@
-h2{
-    color: blue;
+
+
+// section1
+
+.section1Div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+.section1h2{
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 60vw;
+    margin: 0vw;
+    text-align: center;
+    color: rgb(160, 160, 160);
+}
+
+.section1p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 60vw;
+    margin: 2vh 0vw;
 }

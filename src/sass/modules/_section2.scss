@@ -1,3 +1,46 @@
-h2{
-    color:red
+
+.section2Container{
+    display: flex;
+}
+
+.section2Img{
+    width: 61vw;
+    height: 85vh;
+    margin: 2vh -4vw;
+}
+
+.section2TxtContainer{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    margin: 10vh 5vw;
+    font-size: 20px;
+}
+
+.section2Txt{
+    color: rgb(119, 119, 119);
+}
+
+@media only screen and (max-width: 390px) {
+    .section2Container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2Img{
+        width: 96vw;
+        height: 37vh;
+        margin: 4vh 0vw;
+    }
+    .section2TxtContainer{
+        display: flex;
+        flex-direction: column;
+        width: 76vw;
+        font-size: 20px;
+        text-align: center;
+    }
+    .section2Txt{
+        color: rgb(119, 119, 119);
+    }
 }

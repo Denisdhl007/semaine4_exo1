@@ -1,15 +1,257 @@
-header{
-    background-image: url("../../../public/img/bg-header-desktop.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
+    margin: 0px;
 }
 
 .containerHeader{
-    src: url("../../../public/img/logo.svg");
-    background-color:aqua;
-    height: 50vh;
+    display: flex;
+    background-image: url(../img/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-color: #e4e4e49f;
+    height: 60vh;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
 }
 
-h2{
-    color: blue;
+@media only screen and (max-width: 390px) {
+    .containerHeader{
+    display: flex;
+    background-image: url(../img/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-color: #e4e4e49f;
+    height: 77vh;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    }
+}
+
+.containerHeaderLogo{
+    height: 10vh ;
+}
+
+
+.containerTitre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+.headerh2{
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+}
+
+.headerp{
+    display: flex;
+    text-align: center;
+}
+
+.containerHeaderButtons{
+    display: flex;
+    height: 14vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.headerButtonsL{
+    background-color: #3ec5c0;
+    border-radius: 50px;
+    width: 12vw;
+    margin: 4vh 2vw;
+    color: #fff;
+    border: 1px solid #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.headerButtonsR{
+    background-color:rgb(150, 134, 238);
+    border-radius: 50px;
+    width: 12vw;
+    margin: 4vh 2vw;
+    color: #fff;
+    border: 1px solid #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.headerButtonsL:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+
+.headerButtonsR:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 390px) {
+    .containerHeaderButtons{
+        display: flex;
+        height: 28vh;
+        width: 100vw;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerButtonsL{
+        background-color: #3ec5c0;
+        border-radius: 50px;
+        width: 70VW;
+        height: 5vh;
+        margin: 1vh 2vw;
+        color: #fff;
+        border: 1px solid #fff;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .headerButtonsR{
+        background-color:rgb(150, 134, 238);
+        border-radius: 50px;
+        width: 70VW;
+        height: 5vh;
+        margin: 1vh 2vw;
+        color: #fff;
+        border: 1px solid #fff;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+}
+
+body{
+    margin: 0px;
+}
+
+.containerHeader{
+    display: flex;
+    background-image: url(../img/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-color: #e4e4e49f;
+    height: 60vh;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 390px) {
+    .containerHeader{
+    display: flex;
+    background-image: url(../img/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-color: #e4e4e49f;
+    height: 77vh;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    }
+}
+
+.containerHeaderLogo{
+    height: 10vh ;
+}
+
+
+.containerTitre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+.headerh2{
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+}
+
+.headerp{
+    display: flex;
+    text-align: center;
+}
+
+.containerHeaderButtons{
+    display: flex;
+    height: 14vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.headerButtonsL{
+    background-color: #3ec5c0;
+    border-radius: 50px;
+    width: 12vw;
+    margin: 4vh 2vw;
+    color: #fff;
+    border: 1px solid #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.headerButtonsR{
+    background-color:rgb(150, 134, 238);
+    border-radius: 50px;
+    width: 12vw;
+    margin: 4vh 2vw;
+    color: #fff;
+    border: 1px solid #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.headerButtonsL:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+
+.headerButtonsR:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 390px) {
+    .containerHeaderButtons{
+        display: flex;
+        height: 28vh;
+        width: 100vw;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerButtonsL{
+        background-color: #3ec5c0;
+        border-radius: 50px;
+        width: 70VW;
+        height: 5vh;
+        margin: 1vh 2vw;
+        color: #fff;
+        border: 1px solid #fff;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    .headerButtonsR{
+        background-color:rgb(150, 134, 238);
+        border-radius: 50px;
+        width: 70VW;
+        height: 5vh;
+        margin: 1vh 2vw;
+        color: #fff;
+        border: 1px solid #fff;
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
 }
